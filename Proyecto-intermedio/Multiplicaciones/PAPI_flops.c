@@ -9,7 +9,7 @@ int main()
     printf("retval: %d\n", retval);
     exit(1);
   }
-    transpuesta(A,N);  
+    multiplicacion_directa(A,B,C,2);  
 
     if((retval=PAPI_flops_rate(PAPI_FP_OPS,&real_time, &proc_time, &flpops, &mflops))<PAPI_OK)
   {    
