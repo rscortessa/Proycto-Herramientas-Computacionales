@@ -14,6 +14,9 @@
  * since the latest call to PAPI_flops_rate.                                 *
  *****************************************************************************/
 
+// Compilar sin banderas de optimización, i.e.:
+// gcc -O0 -g slow_code.c -lpapi
+
 
 #include <stdio.h>
 #include <stdlib.h>
